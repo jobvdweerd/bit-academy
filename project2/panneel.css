@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #00a9a3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: absolute;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.8em;
+    font-weight: 800;
+    cursor: pointer;
+}
+  
+li a:hover {
+    color: #f5ba36
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+body, html {
+    height: 100%;
+    background-color: black;
+}
+.panneel{
+    position: relative;
+    top: 12px;
+    left: 1850px;
+    height: 50px;
+}
+
+.logo{
+    position: absolute;
+    height: 100px;
+    margin: 5px;
+}
+.submit{
+  display: flex;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 1.8em;
+  font-weight: 800;
+  width: 100px;
+  background-color: #00a9a3;
+  border: none;
+  color: gainsboro;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.led{
+  position: relative;
+  top: 40px;
+  left: 40%;
+  width: 100px;
+}
+.graden{
+  position: relative;
+  top: -75px;
+  left: 50%;
+  width: 100px;
+}
+.aan{
+  position: relative;
+  left: 60%;
+  top: -270px;
+  width: 100px;
+}

@@ -1,0 +1,154 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+  
+li {
+    float: left;
+}
+li a {
+    z-index: 1000;
+    display: block;
+    color: #00a9a3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: absolute;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.8em;
+    font-weight: 800;
+    cursor: pointer;
+}
+li a:hover {
+    color: #f5ba36
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    z-index: 1000;
+    position: absolute;
+    height: 100px;
+    margin: 5px;
+}
+html, body {
+    height: 100%; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: courier, monospace;
+  }
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #120103;
+    color: #fff;
+    text-align: center;
+  }
+.header {
+    background: #3e474f;
+    box-shadow: 0 0.5em 1em #111;
+    position: absolute;
+    height: 35%;
+    top: 35%;
+    right: 0;
+    z-index: 900;
+    width: 8%;
+    padding-top: 30px;
+  }
+.header label {
+    color: #788188;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 4.25em;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0 1em;
+  }
+  
+.header label:hover {
+    background: #2e353b;
+  }
+  
+  .slide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-color: #120103;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: left 0s 0.75s;
+  }
+  
+  .slide-one {
+    background-image: url(achtergrond1.jpg);
+  }
+  
+  .slide-two {
+    background-image: url(achtergrond2.jpg);
+  }
+  
+  .slide-three {
+    background-image: url(achtergrond3.jpg);
+  }
+  
+  .slide-four {
+    background-image: url(achtergrond4.jpg);
+  }
+  
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+  }
+  
+  .slide h1 {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s 0.5s, opacity 0.5s;
+    font-size: 1.9vw;
+    font-weight: 900;
+    line-height: 1.1em;
+    color: black;
+  }
+  .slide p{
+    top: 10%;
+    font-size: 30px;
+    position: relative;
+    max-width: 100%;
+    color:black;
+    
+  }
+  [id^="slide"]:checked + .slide h1 {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s 0.5s;
+  }
+.tekst{
+  position: relative;
+  text-align: center;
+  top: 20%;
+  left: 27%;
+  background-color: rgb(165, 165, 165);
+  height: 40%;
+  width: 40%;
+  border-radius: 25px;
+  opacity: 0.9;
+  box-shadow: 10px 10px black;
+  padding-top: 20px;
+}
+.panneel{
+  position: absolute;
+  top: 12px;
+  left: 1850px;
+  height: 50px;
+  z-index: 1000;
+}

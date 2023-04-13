@@ -1,0 +1,151 @@
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.navbar ul li {
+    float: left;
+}
+.navbar ul li a {
+    display: block;
+    color: #00a9a3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: absolute;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.8em;
+    font-weight: 800;
+    cursor: pointer;
+}
+  
+.navbar ul li a:hover {
+    color: #f5ba36
+}
+.logo{
+    position: absolute;
+    height: 100px;
+}
+.tekst{
+    position: relative;
+    top: 100px;
+    left: 410px;
+    max-width: 40%;
+    color: lightgray;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+.kosten{
+    position: relative;
+    top:200px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.een{
+    position: relative;
+    left: 400px;
+    width:250px;
+    height: 500px;
+    align-items: center;
+    background: linear-gradient(180deg, lightgray 20%, white 80%);
+    margin:10px;
+    text-align: center;
+    padding: 40px;
+}
+.twee{
+    position: relative;
+    left: 450px;
+    width: 250px;
+    height: 500px;
+    align-items: center;
+    background: linear-gradient(180deg, gray 20%, white 80%);
+    margin:10px;
+    text-align: center;
+    padding: 40px;
+}
+.drie{
+    position: relative;
+    left: 500px;
+    width: 250px;
+    height: 500px;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(67, 67, 67) 20%, white 80%);
+    margin:10px;
+    text-align: center;
+    padding: 40px;
+}
+.kosten ul h1{
+    font-size: 90px;
+    font-weight: 800;
+}
+.klein{
+    position: relative;
+    top:-31px;
+    font-size: 35px;
+}
+.submit{
+    position: relative;
+    top: 0px;
+    left:10px;
+    background-color: #00a9a3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.een a{
+    position: relative;
+    top: 85px;
+    left:0px;
+}
+.twee a{
+    position: relative;
+    top:55px;
+    left:0px;
+}
+.drie a{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+.submit:hover{
+    background-color: #df5a53;
+    padding: 14px 31px;
+}
+.twee a:hover {
+    background-color:#f5ba36 ;
+    padding: 14px 31px;
+}
+.een a:hover {
+    background-color:#29a2db;
+    padding: 14px 31px;
+}
+#float{
+           /*This is needed.*/
+    position: absolute;
+    top: 100%;
+    transition: all 1s ease-out;
+}
+body{
+    background-image: url("achtergrondmaarbeter.jpg");
+    height: 100%;
+    margin-top: 8px;
+}
+.panneel{
+    position: relative;
+    top: 12px;
+    left: 1850px;
+    height: 50px;
+    color: white;
+}
