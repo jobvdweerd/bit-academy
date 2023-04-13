@@ -1,0 +1,9 @@
+div.tooltip {
+    position: sticky;
+    top: 0;
+  }
+.tooltip-content:hover {
+    background-color: black;
+    color: white;
+    position: relative;
+}

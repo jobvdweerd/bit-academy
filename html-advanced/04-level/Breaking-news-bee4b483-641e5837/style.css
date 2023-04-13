@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+.gaming{
+    display: flex;
+    flex-wrap:wrap;
+}
+.gaming1 {
+    text-align: center;
+}
+.t1 {
+    order:2 ;
+}
+.t2{
+    order:3;
+}
+.t4 {
+    text-align:center;
+    order:4;
+}
+.t3{
+    align-items: flex-start;
+    align-content: center;
+    order: 1;
+}
+.content{
+    background-color: lightsalmon;
+}

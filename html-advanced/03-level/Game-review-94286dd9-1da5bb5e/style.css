@@ -1,0 +1,27 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.iets {
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.reclame {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    padding: 50px; 
+    width: 200px;
+    height: 800px;
+    flex-direction: column;
+    }
+body {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    flex-shrink: 1;
+}
