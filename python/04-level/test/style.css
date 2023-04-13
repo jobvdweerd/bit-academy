@@ -1,0 +1,44 @@
+.Atomen {
+    vertical-align: text-top;
+    font-size: 5px;
+  }
+  .Grey
+  {
+    background-color: grey;
+    padding: 1px;
+  }
+  a:hover {
+    background-color: rgb(195, 255, 84);
+    cursor: pointer;
+  }
+  .ai0 {
+    background-color: rgb(201, 134, 185);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 1px;
+  }
+  .ai1 {
+    background-color: rgb(120, 184, 223);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 1px;
+  }
+  .ai2 {
+    background-color: rgb(230, 221, 130);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 1px;
+  }
+  .ai3 {
+    background-color: rgb(230, 221, 130);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 1px;
+  }
+  .ai4 {
+    background-color: rgb(230, 221, 130);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 1px;
+  }
+  
